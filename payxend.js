@@ -393,7 +393,7 @@ eval("\n\nvar savedCard = __webpack_require__(/*! ../api/payment/index */ \"./sr
 /*! exports provided: assetHost, success, default */
 /***/ (function(module) {
 
-eval("module.exports = JSON.parse(\"{\\\"assetHost\\\":\\\"https://cdn.jsdelivr.net/gh/ada-h/xendSdk@v1.0/\\\",\\\"success\\\":200}\");\n\n//# sourceURL=webpack:///./src/resource/important.json?");
+eval("module.exports = JSON.parse(\"{\\\"assetHost\\\":\\\"https://cdn.jsdelivr.net/gh/ada-h/xendSdk/\\\",\\\"success\\\":200}\");\n\n//# sourceURL=webpack:///./src/resource/important.json?");
 
 /***/ }),
 
@@ -405,7 +405,7 @@ eval("module.exports = JSON.parse(\"{\\\"assetHost\\\":\\\"https://cdn.jsdelivr.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nmodule.exports = async function openSdk() {\n\n    var head = document.getElementsByTagName('HEAD')[0];\n    var link = document.createElement('link');\n    var link2 = document.createElement('link');\n    link.rel = 'stylesheet';\n    link.id = 'mainCSS';\n    link2.id = 'customCSS';\n    link2.rel = 'stylesheet';\n    link2.type = 'text/css';\n    link.type = 'text/css';\n    link.href = 'https://cdn.jsdelivr.net/gh/ada-h/xendSdk@v1.0/main.cba69814a806ecc7945a.css';\n    link2.href = 'https://cdn.jsdelivr.net/gh/ada-h/xendSdk@v1.0/sdk.css';\n\n    // Append link element to HTML head \n    head.appendChild(link);\n    head.appendChild(link2);\n\n    var script = document.createElement(\"script\");\n    var script2 = document.createElement(\"script\");\n    script2.src = \"https://sandbox.sdk.monnify.com/plugin/monnify.js\";\n    script.src = \"https://js.paystack.co/v1/inline.js\";\n    document.head.appendChild(script);\n    document.head.appendChild(script2);\n};\n\n//# sourceURL=webpack:///./src/resource/openSdk.js?");
+eval("\n\nmodule.exports = async function openSdk() {\n\n    var head = document.getElementsByTagName('HEAD')[0];\n    var link = document.createElement('link');\n    var link2 = document.createElement('link');\n    link.rel = 'stylesheet';\n    link.id = 'mainCSS';\n    link2.id = 'customCSS';\n    link2.rel = 'stylesheet';\n    link2.type = 'text/css';\n    link.type = 'text/css';\n    link.href = 'https://cdn.jsdelivr.net/gh/ada-h/xendSdk/main.cba69814a806ecc7945a.css';\n    link2.href = 'https://cdn.jsdelivr.net/gh/ada-h/xendSdk/sdk.css';\n\n    // Append link element to HTML head \n    head.appendChild(link);\n    head.appendChild(link2);\n\n    var script = document.createElement(\"script\");\n    var script2 = document.createElement(\"script\");\n    script2.src = \"https://sandbox.sdk.monnify.com/plugin/monnify.js\";\n    script.src = \"https://js.paystack.co/v1/inline.js\";\n    document.head.appendChild(script);\n    document.head.appendChild(script2);\n};\n\n//# sourceURL=webpack:///./src/resource/openSdk.js?");
 
 /***/ }),
 

@@ -232,10 +232,12 @@ body{
 
 .noCards{
     padding: 10px;
-    font-weight: laoold;
+    font-weight: bold;
     color: red;
     margin-left: 10px;
+    font-size: 20px;
 }
+
 .loader{
     position: absolute;
     top: 50%;
