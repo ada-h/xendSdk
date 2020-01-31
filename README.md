@@ -8,15 +8,12 @@ via
 * Monnify
 
 ### How to Use
-After cloning the repo, type **npm run dev-server** into the command line to generate the sdk and then **npm run minify** to create a minified version. To test, you can host this folder on your express server. move the **payxend.min.js** into the assets folder in your express server.
-
-On the project you want to use your xend payment sdk, provide the script source, include this function in your script file and then, invoke the function. 
-
+You can use jsdeliver to allow github to serve the sdk in to your project 
 
 ### Inline sample
 ```html
 <form >
-    <script src="http://localhost:5000/assets/payxend.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ada-h/xendSdk/payxend.min.js"></script>
     <button type="button" onclick="openXendSdk()"> Pay </button> 
 </form> 
 ```
