@@ -39,7 +39,9 @@ You can use jsdeliver to allow github to serve the sdk in to your project
     } 
 </script> 
 ```
-
+### Demo
+    You can take a look at what this looks like here [demo]("https://ada-h.github.io/demo/")
+    
 ### Requirements
  * {Number} amount Amount user wants to pay.
  * {String} customerName Customer's name.
